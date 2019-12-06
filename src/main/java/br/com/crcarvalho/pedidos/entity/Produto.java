@@ -11,6 +11,10 @@ public class Produto {
 	
 	private String nome;
 
+	public Produto(String gtin) {
+		this.gtin = gtin;
+	}
+
 	public String getGtin() {
 		return gtin;
 	}

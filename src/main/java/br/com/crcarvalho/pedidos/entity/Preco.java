@@ -1,10 +1,14 @@
 package br.com.crcarvalho.pedidos.entity;
 
+import java.io.Serializable;
+
 import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
 
 @Entity
-public class Preco {
+public class Preco implements Serializable {
+	
+	private static final long serialVersionUID = 1L;
 	
 	@EmbeddedId
 	private PrecoId precoId;
