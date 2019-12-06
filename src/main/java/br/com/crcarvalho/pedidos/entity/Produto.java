@@ -8,6 +8,7 @@ public class Produto {
 
 	@Id
 	private String gtin;
+	
 	private String nome;
 
 	public String getGtin() {
